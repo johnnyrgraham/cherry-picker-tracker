@@ -14,7 +14,7 @@ Piece rate work like cherry picking has a few pain points this app addresses:
 
 **Miscount disputes** — The binsitter (the person who counts buckets at the bin) occasionally miscounts. Without a personal record, pickers have no way to prove a discrepancy. This app logs each bucket with a timestamp — if your count differs from the binsitter's, you can show them your phone and pinpoint exactly where the gap is.
 
-**Pay transparency** — Gross pay is easy to calculate. What you actually take home after New Zealand tax is less obvious, especially in NZ where tax is annualized and then paid back in a return. The weekly calculator handles the full breakdown so there are no surprises on payday.
+**Pay transparency** — Gross pay is easy to calculate. What you actually take home after New Zealand tax is less obvious. The weekly calculator handles the full breakdown so there are no surprises on payday.
 
 ---
 
@@ -32,9 +32,13 @@ Piece rate work like cherry picking has a few pain points this app addresses:
 
 ## Screenshots
 
-| Day View | Weekly Dashboard | Day Detail |
-|----------|-----------------|------------|
-| ![Day view with live timer](screenshots/day-stopwatch.png) | ![Weekly earnings dashboard](screenshots/dashboard.png) | ![Day detail popup](screenshots/day-detail.png) |
+| Day View | Weekly Dashboard | All Time Totals |
+|----------|-----------------|-----------------|
+| ![Day view with live timer](screenshots/day-stopwatch.png) | ![Weekly earnings dashboard](screenshots/dashboard.png) | ![All time totals](screenshots/all-time-totals.png) |
+
+| Complete Day | Settings |
+|-------------|----------|
+| ![Complete day modal](screenshots/complete-day.png) | ![Settings screen](screenshots/settings.png) |
 
 ---
 
@@ -82,7 +86,7 @@ Scan the QR code with the **Expo Go** app on your phone, or press `a` for Androi
 
 ## Why I built this
 
-I pick cherries every summer and would use a stopwatch to record my buckets, it left me wanting something better, I felt the pain of not knowing my rate, not having a record when counts didn't match, and not knowing what I'd actually take home. Built the first version in a weekend with Cursor. This is the cleaned-up rebuild.
+I picked cherries myself and felt the pain of not knowing my rate, not having a record when counts didn't match, and not knowing what I'd actually take home. Built the first version in a weekend with Cursor. This is the cleaned-up rebuild.
 
 ---
 
